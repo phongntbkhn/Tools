@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.95.4" />
+    <PackageReference Include="Google.Apis" Version="1.9.0" />
+    <PackageReference Include="Google.Apis.Core" Version="1.9.0" />
+    <PackageReference Include="Google.Apis.Customsearch.v1" Version="1.9.0.460" />
+  </ItemGroup>
+
+</Project>

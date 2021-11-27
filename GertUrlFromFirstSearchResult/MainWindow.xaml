@@ -1,0 +1,17 @@
+﻿<Window x:Class="GertUrlFromFirstSearchResult.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GertUrlFromFirstSearchResult"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="393" Width="800">
+    <Grid Margin="0,0,0,0">
+        <Label Content="return the first google.co.uk search result url based on a specific set of data from Excel" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.576,0.098" Width="780" Height="50" FontSize="16" FontWeight="Bold" HorizontalContentAlignment="Center"/>
+        <Button x:Name="btnProcess" Content="Return data" HorizontalAlignment="Center" Margin="0,221,0,0" VerticalAlignment="Top" Height="39" Width="104" Click="btnProcess_Click"/>
+        <TextBox x:Name="txtFilePath" HorizontalAlignment="Left" Margin="170,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="501" Height="38"/>
+        <Button Content="Browse file" HorizontalAlignment="Left" Margin="676,138,0,0" VerticalAlignment="Top" Height="39" Width="104" Click="Button_Click"/>
+        <Label Content="Choose file Excel" HorizontalAlignment="Left" Margin="10,138,0,0" VerticalAlignment="Top" Width="146" Height="38" VerticalContentAlignment="Center" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
